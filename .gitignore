@@ -1,0 +1,136 @@
+# Folders to ignore - files may be too large, too many, etc. NOTE: EDIT IF NEEDED.
+#  In general, we don't want the data directory
+data/*
+# But we will want to include some data that
+# is small and hard to automatically download
+# I got help from this tool
+# https://theapache64.github.io/git-do-not-ignore/
+# which I found here
+# https://stackoverflow.com/questions/987142/
+# make-gitignore-ignore-everything-except-a-few-files
+!data/raw/
+data/raw/*
+!data/raw/external/
+data/raw/external/*
+# We want to include the discount rate chains
+!data/raw/external/dr_chains.csv
+
+# We also want to include the low-mod income
+# and the ddfs
+!data/raw/vuln/
+data/raw/vuln/*
+!data/raw/vuln/social/
+data/raw/vuln/social/*
+!data/raw/vuln/social/US/
+data/raw/vuln/social/US/*
+!data/raw/vuln/social/US/ACS_2015_lowmod_blockgroup_all.xlsx
+!data/raw/vuln/physical/
+data/raw/vuln/physical/*
+!data/raw/vuln/physical/US/
+
+# Also want to include the hazard mitigation assistance data
+# but not the nfhl data
+!data/raw/pol/
+data/raw/pol/34007
+
+# And the check data
+!data/check
+
+figures
+workflow/notebooks/presentations.ipynb
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# DotEnv configuration
+.env
+
+# Database
+*.db
+*.rdb
+
+# Pycharm
+.idea
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyproject/
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# exclude references from source control by default
+/references/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# vim
+*.swp
+*.swo
+
+# Mypy cache
+.mypy_cache/
