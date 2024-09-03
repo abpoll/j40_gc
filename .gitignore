@@ -16,7 +16,6 @@ data/raw/external/*
 !data/raw/external/dr_chains.csv
 
 # We also want to include the low-mod income
-# and the ddfs
 !data/raw/vuln/
 data/raw/vuln/*
 !data/raw/vuln/social/
@@ -24,9 +23,11 @@ data/raw/vuln/social/*
 !data/raw/vuln/social/US/
 data/raw/vuln/social/US/*
 !data/raw/vuln/social/US/ACS_2015_lowmod_blockgroup_all.xlsx
-!data/raw/vuln/physical/
-data/raw/vuln/physical/*
-!data/raw/vuln/physical/US/
+# and the ddfs
+!data/raw/external/vuln/
+data/raw/external/vuln/*
+!data/raw/external/vuln/ddfs.zip
+
 
 # Also want to include the hazard mitigation assistance data
 # but not the nfhl data
