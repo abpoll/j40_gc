@@ -93,9 +93,7 @@ To reproduce:
 
 This experiment was designed and run on an Ubuntu 22.04.4 LTS (GNU/Linux 5.15.0-102-generic x86_64) machine with mamba version 1.4.2.
 
-This experiment was successfully reproduced on the following machines:
-
-1) macOS Sonoma 14.2.1 with mamba version 1.5.8 by Prabhat Hegde on May 20, 2024. 
+This experiment was successfully reproduced on the same machine by Alexis Hudes on September 11, 2024. 
 
 Please contact Adam Pollack at adam.b.pollack@dartmouth.edu if you have any issues following these instructions.
 
