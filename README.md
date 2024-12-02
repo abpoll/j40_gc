@@ -1,6 +1,6 @@
 _your zenodo badge here_
 
-# Pollack-etal_2024_inprep
+# Pollack-etal_2024_pnas
 
 **Funding rules that promote equity in climate adaptation outcomes**
 
@@ -19,13 +19,13 @@ Adam Pollack<sup>1\*</sup>, Sara Santamaria-Aguilar<sup>2,3</sup>, Pravin Maduwa
 \* corresponding author:  adam.b.pollack@dartmouth.edu
 
 ## Abstract
-Many climate policies adopt improving equity as a key objective. A key challenge is that policies often conceive of equity in terms of individuals but introduce strategies that focus on spatially coarse administrative areas. For example, the Justice40 Initiative in the United States requires 518 diverse federal programs to prioritize funds for “disadvantaged” census tracts. This strategy is largely untested and contrasts with the federal government’s definition of equity as the “consistent and systematic fair, just and impartial treatment of all individuals[^1].” How well does the Justice40 approach improve equity in climate adaptation outcomes across individuals? We analyze this question using a case study of a municipality that faces repetitive flooding and struggles to effectively manage these risks due to limited resources and public investment. We find that the way the Federal Emergency Management Agency implements the Justice40 Initiative can be an obstacle to promoting equity in household flood-risk outcomes. This finding also holds for community-level rules based on other definitions of “disadvantage.” In contrast, we design simple funding based on household risk burden that cost-effectively target the most burdened households, reduce risk-burden inequality, and accrue large net benefits. Our findings suggest that “disadvantaged community” indicators defined at coarse spatial scales face the risk of poorly capturing many natural hazards and can be ineffective for meeting equity promises about climate-related investments.  
+Many climate policies adopt improving equity as a key objective. A key challenge is that policies often conceive of equity in terms of individuals but introduce strategies that focus on spatially coarse administrative areas. For example, the Justice40 Initiative in the United States requires 518 diverse federal programs to prioritize funds for “disadvantaged” census tracts. This strategy is largely untested and contrasts with the federal government’s definition of equity as the “consistent and systematic fair, just and impartial treatment of all individuals [^1].” How well does the Justice40 approach improve equity in climate adaptation outcomes across individuals? We analyze this question using a case study of a municipality that faces repetitive flooding and struggles to effectively manage these risks due to limited resources and public investment. We find that the way the Federal Emergency Management Agency implements the Justice40 Initiative can be an obstacle to promoting equity in household flood-risk outcomes. For example, in this case study, ensuring the majority of benefits accrue in “Justice40 Communities” does not reduce risk for the most burdened households, does not reduce risk-burden inequality, and produces net costs. In contrast, we design simple funding based on household risk burden that cost-effectively target the most burdened households, reduce risk-burden inequality, and accrue large net benefits. Our findings suggest that “disadvantaged community” indicators defined at coarse spatial scales face the risk of poorly capturing many climate risks and can be ineffective for meeting equity promises about climate-related investments.  
 
 ## Journal reference
-Will update upon acceptance.
+Will update upon publication.
 
 ## Overview of this repository
-This repository includes the code and instructions for reproducing the main analysis in the paper *Funding rules that promote equity in climate adaptation outcomes.* Collaborators conducted an extreme value analysis and ran an inundation model on the results of that analysis to produce the flood hazard maps for the main analysis. The outputs of the inundation model runs are cited in the next section as a minted repository. The code and instructions to reproduce both analyses can be found [here] and [here]. 
+This repository includes the code and instructions for reproducing the main analysis in the paper *Funding rules that promote equity in climate adaptation outcomes.* Collaborators conducted an extreme value analysis and ran an inundation model on the results of that analysis to produce the flood hazard maps for the main analysis. The outputs of the inundation model runs are cited in the next section as a minted repository. The code and instructions to reproduce both analyses can be found [here](https://github.com/CoRE-Lab-UCF/Pollack_et_al_2024/tree/main). 
 
 ## Data references
 
@@ -34,7 +34,7 @@ This repository includes the code and instructions for reproducing the main anal
 
 | Dataset | DOI |
 |---------|-----|
-| Flood Hazard Maps for case study | *add when available* |
+| Flood Hazard Maps for case study | https://doi.org/10.5281/zenodo.14260630 |
 | HAZUS & NACCS depth-damage functions | https://zenodo.org/doi/10.5281/zenodo.10027235 |
 
 Note: the HAZUS & NACCS depth-damage functions are included when you clone this repository. 
