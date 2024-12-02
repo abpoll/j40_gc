@@ -1,4 +1,4 @@
-_your zenodo badge here_
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14261361.svg)](https://doi.org/10.5281/zenodo.14261361)
 
 # Pollack-etal_2024_pnas
 
