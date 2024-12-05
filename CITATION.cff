@@ -1,0 +1,19 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: j40_gc
+message: >-
+  A local case study in allocating a limited adaptation
+  budget to promote equity in flood elevation outcomes. 
+type: software
+authors:
+  - given-names: Adam
+    family-names: Pollack
+    email: adam.b.pollack@dartmouth.edu
+    affiliation: Dartmouth College
+    orcid: 'https://orcid.org/0000-0001-6642-0591'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.14261360
+license: MIT
