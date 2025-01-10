@@ -60,8 +60,6 @@ Please see: <https://zenodo.org/records/14261421>.
 ## Reproduce our experiment
 You can follow the instructions below to reproduce all results reported in the manuscript and supplementary materials. For this experiment, reproduction does not imply bit-wise reproducibility because there are stochastic processes. You should obtain similar quantitative results and figures. 
 
-If you would like to check for internal bit-wise correctness, you can do so by assessing the output data we link to above. In addition to figures and outputs, we also include all downloaded, raw, and interim data. You can test whether the interim data, which includes realizations of the simulations we used for the published study, is consistent with the processed final data. Note that if you want to inspect the interim and output data from the Zenodo link provided earlier, you should not run code that produces interim data or results. 
-
 These reproduction instructions assume you are familiar with [Mamba](https://mamba.readthedocs.io/en/latest/) or [Conda](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html) and running [Jupyter notebooks](https://jupyter.org/).
 
 To reproduce:
@@ -79,7 +77,7 @@ To reproduce:
 
 3. Set up the [Input data](#input-data).
 
-    a) Run `mkdir data/raw/external/haz/` then download the flood hazard maps (will update with the link when it's ready), which are available as a .zip directory, and unzip them. Move the unzipped files and directories into `data/raw/external/haz/`.
+    a) Run `mkdir data/raw/external/haz/` then download the flood hazard maps, which are available as a .zip directory, and unzip them. Move the unzipped files and directories into `data/raw/external/haz/`.
 
 4. Make sure you activate the correct `conda` or `mamba` environment and run all cells in the following notebooks in the `workflow` directory in the following order: 
 
