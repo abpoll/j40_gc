@@ -23,8 +23,7 @@ Many climate policies adopt improving equity as a key objective. A key challenge
 
 ## Journal reference
 A.B. Pollack, S. Santamaria-Aguilar, P. Maduwantha, C. Helgeson, T. Wahl, K. Keller, Funding rules that promote equity in climate adaptation outcomes, Proc. Natl. Acad. Sci. U.S.A.
-122 (2) e2418711121,
-https://doi.org/10.1073/pnas.2418711121 (2025). 
+122 (2) e2418711121, https://doi.org/10.1073/pnas.2418711121 (2025). 
 
 ## Overview of this repository
 This repository includes the code and instructions for reproducing the main analysis in the paper *Funding rules that promote equity in climate adaptation outcomes.* Collaborators conducted an extreme value analysis and ran an inundation model on the results of that analysis to produce the flood hazard maps for the main analysis. The outputs of the inundation model runs are cited in the next section as a minted repository. The code and instructions to reproduce both analyses can be found [here](https://github.com/CoRE-Lab-UCF/Pollack_et_al_2024/tree/main). 
@@ -56,7 +55,7 @@ We use the the [Census Bureau of Labor Statistics construction price indices for
 We forked this repository, which can be found [here](https://github.com/abpoll/random-discount), and ran the code to generate 10,000 stochoastic realizations of discount rate chains for 100 years into the future. This  dataset is included when you clone the present repository (also the forked random-discount repository). 
 
 ### Output data
-Will upload a minted data release with all data in the data/ directory. 
+Please see: <https://zenodo.org/records/14261421>.
 
 ## Reproduce our experiment
 You can follow the instructions below to reproduce all results reported in the manuscript and supplementary materials. For this experiment, reproduction does not imply bit-wise reproducibility because there are stochastic processes. You should obtain similar quantitative results and figures. 
